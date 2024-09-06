@@ -20,5 +20,6 @@ public class UserController {
     public Object getUser(@PathVariable("id") Integer id){
        return  userService.findById(id);
     }
+    //测试
 
 }
